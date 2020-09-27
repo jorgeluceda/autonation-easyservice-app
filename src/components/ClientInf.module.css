@@ -1,0 +1,57 @@
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px #ef4985 solid;
+}
+.left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1 1 0;
+  margin-bottom: 1em;
+}
+
+.left span {
+  margin-bottom: 10px;
+}
+
+.attend_button {
+  width: 200px;
+  height: 58px;
+  color: white;
+  font-weight: 800;
+  background-color: #ef4985;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1em;
+}
+
+.attend_button:hover {
+  transform: scale(1.07);
+  background-color: #f47ca8;
+}
+
+.attend_button:active {
+  transform: scale(0.95);
+  background-color: #f9b4cd;
+}
+
+.line {
+  background-color: #ef4985;
+  width: 2px;
+  height: 130px;
+  margin: 0 4em;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 0;
+}
+
+.right span {
+  text-align: initial;
+}
