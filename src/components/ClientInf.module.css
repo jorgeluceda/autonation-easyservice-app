@@ -19,7 +19,7 @@
 
 .attend_button {
   width: 200px;
-  height: 58px;
+  height: 48px;
   color: white;
   font-weight: 800;
   background-color: #ef4985;
@@ -42,7 +42,7 @@
 .line {
   background-color: #ef4985;
   width: 2px;
-  height: 130px;
+  height: 100px;
   margin: 0 4em;
 }
 

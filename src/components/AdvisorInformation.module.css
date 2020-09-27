@@ -2,14 +2,16 @@
   margin-top: 2em;
   display: flex;
   flex-direction: column;
-  border-bottom: 3px #b7b7b7 solid;
+  border-bottom: 1px #9b9b9b solid;
 }
+
 .wrapper_top {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
 }
+
 .user_information {
   display: flex;
   flex-direction: row;
@@ -53,4 +55,11 @@
   height: 3em;
   display: flex;
   justify-content: flex-end;
+}
+
+.centered_info {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 15em;
 }
